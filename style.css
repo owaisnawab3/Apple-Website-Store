@@ -1,0 +1,488 @@
+@font-face{
+    font-family: sf pro;
+    src: url(./SFPRODISPLAYREGULAR.OTF);
+}
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sf pro;
+}
+body{
+    background-color: rgb(250, 250, 250);
+}
+p{
+    text-align: center;
+    color: aliceblue;
+    padding-top: 10px;
+}
+.x{
+padding-left: 500px;
+text-decoration: none;
+color: aliceblue;
+}
+.x:hover{
+    color: grey;
+}
+.high{
+    padding-left: 520px;
+}
+.header{
+    height: 40px;
+    background-color: rgb(29, 29, 29);
+}
+.navbar{
+    display: flex;
+}
+.navbar a{
+    position: -webkit-sticky;
+    position: sticky;
+    text-decoration: none;
+    color: black;
+    margin-left: 30px;
+    text-align: center;
+    height: 44px;
+    font-size: 12px;
+    align-items: center;
+    justify-content: center;
+}
+#navbar{
+    text-decoration:none;
+    text-align: center;
+    color: black;
+    padding: 0px 0px 0px 40px;
+    height: 25px;
+}
+#store{
+    text-decoration: none;
+    color: black;
+    font-size:  14px;
+    margin: 0px 8px;
+    text-align: center;
+    padding-left: 25px;
+    padding-top: 20px;
+}
+#mac{
+    text-decoration: none;
+    color: black;
+    font-size:  14px;
+    margin: 0px 8px;
+}
+#ipad{
+    text-decoration: none;
+    color: black;
+    font-size:  14px;
+    margin: 0px 8px;
+}
+#iphone{
+    text-decoration: none;
+    color: black;
+    font-size:  14px;
+    margin: 0px 8px;
+}
+#watch{
+    text-decoration: none;
+    font-size:  14px;
+    color: black;
+    margin: 0px 8px;
+}
+#vision{
+    text-decoration: none;
+    color: black;
+    font-size:  14px;
+    margin: 0px 8px;
+}
+#airpods{
+    text-decoration: none;
+    color: black;
+    font-size:  14px;
+    margin: 0px 8px;
+}
+#tv{
+    text-decoration: none;
+    color: black;
+    font-size:  14px;
+    margin: 0px 8px;
+}
+#entertainment{
+    text-decoration: none;
+    font-size:  14px;
+    color: black;
+    margin: 0px 8px;
+}
+#accessories{
+    text-decoration: none;
+    font-size:  14px;
+    color: black;
+    margin: 0px 8px;
+}
+#support{
+    text-decoration: none;
+    color: black;
+    font-size:  14px;
+    margin: 0px 8px;
+    padding-right: 23px;
+}
+#search{
+    padding-right: 23px;
+}
+.shopping{
+    padding-top: 15px;
+}
+h1{
+    text-align: center;
+    margin-top: 65px;
+    font-size: 60px;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    font-weight: lighter;
+}
+.learn{
+ font-size: 23px;
+ text-align: center;
+ margin-left: 560px;
+ color: rgb(106, 106, 255);
+ text-decoration: none;
+ margin-top: 20px;
+}
+.learn:hover{
+    text-decoration: underline;
+}
+.buy{
+    font-size: 23px;
+    margin-left: 50px;
+    color: rgb(106, 106, 255);
+    text-decoration: none;
+    margin-top: 20px;
+}
+.buy:hover{
+    text-decoration:underline;
+}
+.black{
+    background-color: black;
+    color: white;
+}
+.iphone{
+    height: 160px;
+    background-color: black;
+}
+.learn1{
+    font-size: 23px;
+    text-align: center;
+    margin-left: 560px;
+    color: rgb(106, 106, 255);
+    text-decoration: none;
+   }
+   .learn1:hover{
+       text-decoration: underline;
+   }
+   .buy1{
+       font-size: 23px;
+       margin-left: 50px;
+       color: rgb(106, 106, 255);
+       text-decoration: none;
+   }
+   .buy1:hover{
+       text-decoration:underline;
+   }
+   .white{
+    margin-top: 400px;
+   }
+   .container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+   }
+   /* .image1{
+    display: flex;
+    justify-content: space-between;
+   } */
+   /* .slider{
+    width: 800px;
+    height: 500px;
+    border-radius: 10px;
+   }
+   .slides{
+    width: 500%;
+    height: 500px;
+    display: flex;
+   }
+  
+   .slide input{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+   }
+.slide img{
+    width: 800px;
+    height: 500px;
+}
+
+.navigation-manual{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+}
+.manual-btn{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+}
+.manual-btn:not(:last-child){
+ margin-right: 40px;
+}
+.manual-btn:hover{
+    background-color: aqua;
+} */
+.slider{
+    margin-left:22%;
+    width: 800px;
+    height: 400px;
+    box-shadow: 1px 2px 8px 10px rgb(144, 144, 144);
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 20px;
+
+}
+figure{
+    position: relative;
+    left: 0;
+    width: 800px;
+    animation: 3s slide infinite;
+    transition: all;
+}
+.slide{
+    position: relative;
+    width: 160px;
+    height: 400px;
+    float: left;
+}
+.slide img{
+    position: absolute;
+   width: 100%;
+   height: 400px;
+}
+@keyframes slide {
+    0%{
+        left: 0;
+    }
+    10%{
+        left: 0;
+    }
+    20%{
+        left: 100%;
+    }
+    30%{
+        left: 100%;
+    }
+    40%{
+        left: 200%;
+    }
+    50%{
+        left: 200%;
+    }
+    55%{
+        left: 300%;
+    }
+    65%{
+        left: 300%;
+    }
+    66%{
+        left: 200%;
+    }
+    74%{
+        left: 200%;
+    }
+    75%{
+        left: 100%;
+    }
+    85%{
+        left: 100%;
+    }
+    90%{
+        left: 0;
+    }
+    100%{
+        left: 0;
+    }
+}
+.foot{
+    background-color:rgb(255, 255, 255);
+}
+.end{
+    color: rgb(53, 53, 53);
+    background-color: rgb(255, 255, 255);
+    font-size: 12px;
+    text-align: start;
+    margin-left: 200px;
+    margin-right: 200px;
+    line-height: 20px;
+}
+hr{
+  width:70% ;
+  padding-left: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* .link{
+ margin-left: 10%;
+ list-style: none;
+}
+.link li b{
+    font-size: 14px;
+}
+.name{
+    color: black;
+    display: inline-block;
+    font-size: 14px;
+}
+.link a{
+ text-decoration: none;
+ font-size: 12px;
+ color:black;
+} */
+/* .second-link{
+    margin-left: 40%;
+    margin-bottom: 400px;
+    list-style: none;
+    display: inline-block;
+} 
+.link{
+    font-size: 14px;
+    display: inline-block;
+}
+.second-link a{
+    text-decoration: none;
+    font-size: 12px;
+    color:black;
+    display: flex; */
+   /* } */
+/* .name1{
+    color: black;
+    margin-bottom: 500px;
+} */
+/* .foot-panel2{
+    color: black;
+    text-decoration: none;
+} */
+.gray{
+    color: black;
+    /* margin-right: 500px; */
+}
+.foot-panel{
+    height: 200px;
+    display: flex;
+    justify-content: space-evenly;
+}
+ul a{
+    display: block;
+    margin-top: 10px;
+    font-size: 12px;
+}
+#para{
+    font-size: 14px;
+    color: black;
+    padding-right: 30px;
+}
+.contact{
+    color: rgb(137, 137, 137);
+    font-size: 12px;
+    padding-right: 580px;
+    margin-bottom: 5px;
+}
+.h{
+    width: 74%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.copyright{
+    color: gray;
+    font-size: 12px;
+    padding-right: 790px;
+    margin-bottom: 10px;
+}
+.policy{
+    display: inline-block;
+    margin-left: 500px;
+    font-size: 15px;
+    color: aliceblue;
+    text-decoration: none;
+    
+}
+.privicy{
+    color: rgb(128, 128, 128);
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.terms{
+    color: rgb(128, 128, 128);
+    font-size: 15px;
+    text-decoration: none; 
+    margin-left: 5px;
+    margin-right: 5px;  
+}
+.sales{
+    color: rgb(128, 128, 128);
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.legal{
+    color: rgb(128, 128, 128);
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.site{
+    color: rgb(128, 128, 128);
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.pakistan{
+    font-size: 14px;
+    margin-left: 1100px;
+    margin-bottom: 10px;
+}
+.apple1{
+    color:rgb(128, 128, 128); 
+    margin-left: 50px;
+    font-size: 14px;
+    padding-right: 50px;
+}
+/* .mango{
+    color: gray;
+    margin-left: 6px;
+    font-size: 13px;
+}
+.pro{
+    margin-left: 120px;
+    margin-left: 10px;
+}
+.usa{
+    color: gray;
+    margin-left: 250px;
+    font: 10px;
+} */
+/* .cross{
+    padding-left: 1250px;
+    margin-bottom: 20px;
+    padding-bottom: 100px;
+    align-items: center;
+} */
+.man{
+    text-decoration: none;
+    color: black;
+}
